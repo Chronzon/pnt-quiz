@@ -18,11 +18,11 @@ This is the image result of the Docker containers for the backend and frontend s
 
 ### Docker Container 1 - Frontend Result
 This image shows the frontend result of service container built using Docker Container.
-![Docker Container 1](docker-container-1.png)
+![Docker Container 1](./resources/docker-container-1.png)
 
 ### Docker Container 2 - Backend Service
 This image shows the backend result of service container built from the Go lang using Docker Container.
-![Docker Container 2](docker-container-2.png)
+![Docker Container 2](./resources/docker-container-2.png)
 
 ### Ingress Setup - Local Deployment with Minikube
 
@@ -31,17 +31,17 @@ This is the image result of the Minikube ingress deployment.
 #### Ingress 1
 This image shows the result of backend (/api) using Kubernes service (local). 
 This is obtained from the url quiz-lec.local/api using Ingress. 
-![Ingress 1](ingress-1.png)
+![Ingress 1](./resources/ingress-1.png)
 
 #### Ingress 2
 This image shows the result of frontend using Kubernes service (local). 
 This is obtained from the url quiz-lec.local using Ingress. 
-![Ingress 2](ingress-2.png)
+![Ingress 2](./resources/ingress-2.png)
 
 ### Minikube Tunnel
 
 This image shows the Minikube tunnel in action for routing traffic to the local services.
-![Minikube Tunnel](minikube-tunnel.png)
+![Minikube Tunnel](./resources/minikube-tunnel.png)
 
 ## Deployment Commands
 
